@@ -11,10 +11,10 @@ public class Calculate {
         int one = keybd.nextInt();
         System.out.print("Enter another number: ");
         int two = keybd.nextInt();
-        System.out.println("\nSum : " + (one+two));
-        System.out.println("Product : " + (one*two));
-        System.out.println("Square1 : " + (one*one));
-        System.out.println("Square2  : " + (two*two));
+        System.out.println("\nSum : " + (one+two)); //Adding
+        System.out.println("Product : " + (one*two)); //Multiplying
+        System.out.println("Square1 : " + (one*one)); //Square of int var "one"
+        System.out.println("Square2  : " + (two*two)); //Square of int var "two"
 
         System.out.println(coding + fun);
     }
