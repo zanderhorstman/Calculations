@@ -16,10 +16,10 @@ public class Calculate {
         int square1 = one * one;
         int square2 = two * two;
 
-        System.out.println("\nSum : " + (one+two)); //Adding
-        System.out.println("Product : " + (one*two)); //Multiplying
-        System.out.println("Square1 : " + (one*one)); //Square of int var "one"
-        System.out.println("Square2  : " + (two*two)); //Square of int var "two"
+        System.out.println("\nSum : " + sum); //Adding
+        System.out.println("Product : " + product); //Multiplying
+        System.out.println("Square1 : " + square1); //Square of int var "one"
+        System.out.println("Square2  : " + square2); //Square of int var "two"
 
         System.out.println(coding + fun);
     }
